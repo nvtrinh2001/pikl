@@ -25,32 +25,32 @@ export async function getProjects(): Promise<Project[]> {
     {
       repo: "microservice-demo",
       link: "https://github.com/nvtrinh2001/microservice-demo",
-      description: "demonstration of microservices, with grpc and clean architecture (DDD)"
+      description: "go\ndemonstration of microservices, with grpc and clean architecture (DDD)"
     },
     {
       repo: "placemark-hapi",
       link: "https://github.com/nvtrinh2001/placemark-hapi",
-      description: "API for Travisor - a travel application"
+      description: "javascript\napi for a travel application"
     },
     {
       repo: "placemark-svelte",
       link: "https://github.com/nvtrinh2001/placemark-svelte",
-      description: "Frontend for Travisor - a travel application"
+      description: "javascript\nfrontend for a travel application"
     },
     {
       repo: "HomestayBE",
       link: "https://github.com/software-engineering-2022-2/HomestayFE",
-      description: "API for a homestay application"
+      description: "python\napi for a homestay application"
     },
     {
       repo: "file-station",
       link: "https://github.com/network-programming-2022-2/file-station",
-      description: "An application for sharing files P2P"
+      description: "c\napplication for sharing files P2P"
     },
     {
       repo: "hardhat-nft-marketplace",
       link: "https://github.com/nvtrinh2001/hardhat-nft-marketplace",
-      description: "A decentralised marketplace for NFTs"
+      description: "javascript, solidity\ndecentralised marketplace for NFTs"
     },
   ]
 }
