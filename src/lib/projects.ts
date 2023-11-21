@@ -39,7 +39,7 @@ export async function getProjects(): Promise<Project[]> {
     },
     {
       repo: "HomestayBE",
-      link: "https://github.com/software-engineering-2022-2/HomestayFE",
+      link: "https://github.com/software-engineering-2022-2/HomestayBE",
       description: "API for a homestay application"
     },
     {
