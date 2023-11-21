@@ -54,12 +54,12 @@ const title = "piklr • home";
     <h2>Blogs</h2>
 
     <div class="flex flex-col gap-4">
-      <!-- {posts.map(post => <PostRow {post} />)} -->
-      <!---->
-      <!-- <span> -->
-      <!--   <Link href="/blog">All posts →</Link> -->
-      <!-- </span> -->
-      Coming soon..
+      {posts.map(post => <PostRow {post} />)}
+
+      <span>
+        <Link href="/blog">All posts →</Link>
+      </span>
+      <!-- Coming soon.. -->
     </div>
   </main>
 </Base>
