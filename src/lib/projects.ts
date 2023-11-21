@@ -23,34 +23,34 @@ export type Project = z.infer<typeof projectSchema>
 export async function getProjects(): Promise<Project[]> {
   return [
     {
-      repo: "create-t3-app",
-      link: "https://github.com/nexxeln/create-t3-app",
-      description: "the best way to start a full-stack, typesafe next.js app"
+      repo: "microservice-demo",
+      link: "https://github.com/nvtrinh2001/microservice-demo",
+      description: "demonstration of microservices, with grpc and clean architecture (DDD)"
     },
     {
-      repo: "nexxel.dev",
-      link: "https://github.com/nexxeln/nexxel.dev",
-      description: "Boring personal site built with Astro"
+      repo: "placemark-hapi",
+      link: "https://github.com/nvtrinh2001/placemark-hapi",
+      description: "API for Travisor - a travel application"
     },
     {
-      repo: "license-generator",
-      link: "https://github.com/nexxeln/license-generator",
-      description: "Create licenses for your projects right from your terminal"
+      repo: "placemark-svelte",
+      link: "https://github.com/nvtrinh2001/placemark-svelte",
+      description: "Frontend for Travisor - a travel application"
     },
     {
-      repo: "spotify-voice-control",
-      link: "https://github.com/nexxeln/spotify-voice-control",
-      description: "Voice control for Spotify through the terminal"
+      repo: "HomestayBE",
+      link: "https://github.com/software-engineering-2022-2/HomestayFE",
+      description: "API for a homestay application"
     },
     {
-      repo: "hackernews",
-      link: "https://github.com/nexxeln/hackernews",
-      description: "Hacker News clone made with SolidStart and tRPC"
+      repo: "file-station",
+      link: "https://github.com/network-programming-2022-2/file-station",
+      description: "An application for sharing files P2P"
     },
     {
-      repo: "dots",
-      link: "https://github.com/nexxeln/dots",
-      description: "My dotfiles for MacOS"
+      repo: "hardhat-nft-marketplace",
+      link: "https://github.com/nvtrinh2001/hardhat-nft-marketplace",
+      description: "A decentralised marketplace for NFTs"
     },
   ]
 }
