@@ -13,16 +13,16 @@ const posts = sortPostsByDate(
   await getCollection("blog", ({ data }) => data.isDraft !== true),
 ).slice(0, 4)
 
-const title = "nexxel • home";
+const title = "pikl • home";
 ---
 
 <Base
   {title}
-  description="Personal website and blog of Shoubhit Dash aka nexxel."
+  description="Personal website and blog of Trinh V. Nguyen aka pikl."
   image="https://og.nxl.sh/home"
 >
   <h1 slot="header-content" class="text-neutral-500">
-    nexxel
+    pikl
   </h1>
 
   <main class="prose">
@@ -32,7 +32,7 @@ const title = "nexxel • home";
       >
       <br />
 
-      Hi there, I'm <strong>Shoubhit</strong> aka <strong>nexxel</strong>. I'm
+      Hi there, I'm <strong>Shoubhit</strong> aka <strong>pikl</strong>. I'm
       18 y/o and I'm a CS undergrad student. I like <strong
         >shuffling cards</strong
       > and <strong>building things</strong>. I enjoy <strong
